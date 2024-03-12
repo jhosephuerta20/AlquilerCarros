@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Rent</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./Imagenes/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- ESTRUCTURA DEL LOGO , MENU DE NAVEGACION Y USUARIO  -->
+    <header>
+        <div class="logo">
+            <img src="./Imagenes/FastRent.png" alt="#">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Producto.html">Catalago</a></li>
+                <li><a href="Sucursales.html">Sucursal</a></li>
+                <li><a href="Formulario.html">Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="usuario">
+            <a href="InfoDeUsuario.html"><svg xmlns="http://www.w3.org/2000/svg" width="93" height="90" viewBox="0 0 93 90" fill="none">
+                <path d="M46.5 42.006C54.4897 42.006 60.9666 35.7507 60.9666 28.0343C60.9666 20.3179 54.4897 14.0625 46.5 14.0625C38.5102 14.0625 32.0333 20.3179 32.0333 28.0343C32.0333 35.7507 38.5102 42.006 46.5 42.006Z" stroke="black" stroke-width="5"/>
+                <path d="M15.5 66.9859C15.5 58.7016 22.4378 51.9859 30.9982 51.9859C36.1798 51.9859 41.822 51.9859 46.5 51.9859C51.178 51.9859 56.8202 51.9859 62.0018 51.9859C70.5622 51.9859 77.5 58.7016 77.5 66.9859V68.4375C77.5 72.5796 74.0302 75.9375 69.75 75.9375H23.25C18.9698 75.9375 15.5 72.5796 15.5 68.4375V66.9859Z" stroke="black" stroke-width="5"/>
+              </svg></a>
+        </div>
+    </header>
+    <!-- ESTRUCTURA DEL BANNER  -->
+    <aside class="usersAside">
+        <div class="banner">
+            <div class="intro">
+                <h1>Vive tus mejores aventuras</h1>
+                <p>¡Vive la emoción de la aventura sobre ruedas! Alquila una de nuestras 
+                    camionetas todo terreno y prepárate para descubrir los paisajes más 
+                    espectaculares. Con capacidad para llevar todo lo necesario, estas 
+                    camionetas son perfectas para salir de la ciudad y adentrarse en la naturaleza.</p>
+            </div>
+            <div class="informacion">
+                <input type="correo" placeholder="Correo electronico">
+                <button>Promociones</button>
+            </div>
+        </div>
+        <div class="aventura">
+            <img src="./Imagenes/aventura.png" alt="">
+        </div>
+    </aside>
+    <hr id="separador">
+    <!-- ESTRUCTURA DE SECTION -->
+    <section>
+        <h1 class="test">Testimonios</h1>
+        
+        <div class="imagenes">
+            <img src="./Imagenes/usuario01.png" alt="#">
+            <img src="./Imagenes/usuario02.png" alt="#">
+            <img src="./Imagenes/usuario03.png" alt="#">                    
+        </div>
+        <div class="testUsuarios">
+            <div class="comentarios">
+                <h3>JUAN DUBOIS</h3>
+                <p>"El proceso de alquiler fue muy sencillo y rápido. El auto estaba en perfectas 
+                    condiciones y resultó ideal para nuestro viaje familiar. Muy satisfechos con el servicio."</p>
+            </div>
+            <div class="comentarios">
+                <h3>BRUNO GRECCO</h3>
+                <p>"Llegamos a destino sin contratiempos gracias al excelente auto que alquilamos. 
+                    Todo funcionó a la perfección durante nuestras vacaciones. Lo recomendaremos sin dudar."</p>
+            </div>
+            <div class="comentarios">
+                <h3>MARIA RIZZO</h3>
+                <p>"La atención que recibimos al llegar a la empresa de alquiler fue excepcional. 
+                    Nos dieron tips muy útiles para nuestro recorrido. El auto impecable, tal como lo habíamos solicitado."</p>
+            </div>
+        </div>
+    </section>
+    <aside class="asideComent">
+        <div class="coment">
+            <h2>AGREGAR COMENTARIO</h2>
+            <textarea name="textarea" id="" cols="60" rows=8"  style="resize: none;"></textarea>
+            <div class="butons">
+                <button class="eliminar">Eliminar</button>
+                <button>Comentar</button>
+            </div>
+        </div>
+        <div class="comunicate">
+            <div class="comunCont">
+                <h1>¡ Contáctanos y reserva tu alquiler ahora!</h1>
+                <div class="lgCont">
+                    <div class="lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="52" viewBox="0 0 50 52" fill="none">
+                            <path d="M29.6875 0V3.22421C39.1641 3.22421 46.875 11.1799 46.875 20.9573H50C50 9.40178 40.8875 0 29.6875 0ZM13.5162 4.84576C12.6961 4.84576 11.8767 5.12182 11.2091 5.677L11.1328 5.73997L6.21947 10.9699L6.32323 10.8691C4.69724 12.3139 4.24913 14.5962 4.94689 16.5146C6.26356 20.4319 9.62007 28.007 16.2414 34.8302C22.877 41.6848 30.2961 44.9993 33.9661 46.4771L34.0027 46.4897L34.0393 46.5022C35.9368 47.1585 37.9866 46.6904 39.4562 45.3939L39.5019 45.353L44.3848 40.3152C45.6809 38.9779 45.6809 36.6335 44.3848 35.2962L37.9822 28.6841C36.6824 27.343 34.4114 27.343 33.1116 28.6841L30.011 31.8831C28.901 31.3365 26.17 29.9184 23.5748 27.3648C21.0134 24.8447 19.7058 21.9317 19.2322 20.8062L22.3572 17.582C23.7284 16.1672 23.8064 13.7383 22.2259 12.4403L22.3694 12.5757L15.8966 5.73997L15.8234 5.677C15.1557 5.12186 14.3364 4.84576 13.5162 4.84576ZM29.6875 6.44841V9.67262C35.7172 9.67262 40.625 14.7346 40.625 20.9573H43.75C43.75 12.9581 37.4422 6.44841 29.6875 6.44841ZM13.5193 8.06051C13.6306 8.06032 13.7405 8.10361 13.8489 8.18961L20.2026 14.9025L20.2789 14.9655C20.261 14.9507 20.339 15.1051 20.1477 15.3024L15.5273 20.0694L15.8844 21.0424C15.8844 21.0424 17.6479 25.9894 21.4172 29.698C25.1238 33.3452 29.6936 35.3372 29.6936 35.3372L30.6671 35.7654L35.321 30.9637C35.5837 30.6927 35.51 30.6927 35.7727 30.9637L42.1753 37.5759C42.4417 37.8507 42.4417 37.7607 42.1753 38.0356L37.4145 42.9474C36.6896 43.5832 35.9407 43.7498 35.0403 43.4418C31.5057 42.0157 24.5926 38.895 18.4509 32.5506C12.2666 26.1778 9.06207 18.9367 7.88573 15.4283L7.87963 15.4094L7.87047 15.3874C7.63388 14.7418 7.80682 13.8056 8.36181 13.3124L8.41369 13.2652L13.1866 8.18961C13.2951 8.1044 13.4079 8.06071 13.5193 8.06051ZM29.6875 12.8968V16.121C32.2719 16.121 34.375 18.2909 34.375 20.9573H37.5C37.5 16.5128 33.9953 12.8968 29.6875 12.8968Z" fill="black"/>
+                        </svg>
+                        <div class="gridContacto">
+                            <h5>Llámanos</h5>
+                            <h5 class="edit">+1-914-368-0091</h5>
+                        </div>
+                    </div>
+                    <div class="lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="52" viewBox="0 0 50 52" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M38.2874 12.0461C34.7595 8.42163 30.072 6.42126 25.0793 6.42126C14.7888 6.42126 6.40869 15.0247 6.40869 25.5972C6.40259 28.9771 7.26318 32.2755 8.89893 35.1851L6.25 45.1242L16.1499 42.4529C18.8721 43.983 21.9482 44.7856 25.0732 44.7919H25.0793C35.3699 44.7919 43.7439 36.1884 43.75 25.6097C43.75 20.4865 41.8091 15.6706 38.2874 12.0461ZM25.0793 41.5499H25.0732C22.29 41.5499 19.5557 40.7786 17.1753 39.3301L16.6077 38.9852L10.73 40.5654L12.2986 34.6835L11.9324 34.0815C10.376 31.5418 9.55811 28.6071 9.55811 25.5972C9.55811 16.8119 16.5222 9.66323 25.0854 9.66323C29.2297 9.66323 33.1238 11.325 36.0535 14.3349C38.9832 17.3512 40.5945 21.3519 40.5945 25.6097C40.5945 34.4013 33.6304 41.5499 25.0793 41.5499ZM33.5876 29.6104C33.1238 29.3722 30.8289 28.2121 30.4016 28.0553C29.9744 27.8923 29.6631 27.817 29.3518 28.2936C29.0405 28.7764 28.1494 29.855 27.8748 30.1748C27.6062 30.4883 27.3315 30.5322 26.8677 30.294C26.3977 30.0557 24.8962 29.5477 23.114 27.9111C21.7285 26.6444 20.7886 25.0704 20.52 24.5939C20.2454 24.111 20.4895 23.8539 20.7214 23.6156C20.9351 23.4024 21.1914 23.0575 21.4233 22.7753C21.6553 22.4994 21.7346 22.2988 21.8933 21.979C22.0459 21.6592 21.9666 21.377 21.8506 21.1387C21.7346 20.9004 20.8008 18.5363 20.4102 17.5769C20.0317 16.6426 19.6472 16.7742 19.3604 16.7554C19.0918 16.7429 18.7805 16.7429 18.4692 16.7429C18.158 16.7429 17.6514 16.862 17.2241 17.3449C16.7969 17.8215 15.5945 18.9815 15.5945 21.3393C15.5945 23.6971 17.2668 25.9797 17.4988 26.2995C17.7307 26.613 20.7886 31.454 25.47 33.5297C26.5808 34.025 27.4475 34.3198 28.125 34.5392C29.2419 34.9029 30.2612 34.8528 31.0669 34.7336C31.9641 34.5957 33.8257 33.5735 34.2163 32.4511C34.6008 31.3349 34.6008 30.3755 34.4849 30.1748C34.3689 29.9741 34.0576 29.855 33.5876 29.6104Z" fill="black"/>
+                        </svg>
+                        <div class="gridContacto">
+                            <h5>Whatsapp</h5>
+                            <h5 class="edit">+44-208-196-9510</h5>
+                        </div>
+                    </div>
+                    <div class="lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                        <path d="M3.125 7.8125V32.8125H9.375V40.7715L11.9141 38.7207L19.2871 32.8125H34.375V7.8125H3.125ZM6.25 10.9375H31.25V29.6875H18.2129L17.7734 30.0293L12.5 34.2285V29.6875H6.25V10.9375ZM37.5 14.0625V17.1875H43.75V35.9375H37.5V40.4785L31.7871 35.9375H20.0684L16.1621 39.0625H30.7129L40.625 47.0215V39.0625H46.875V14.0625H37.5Z" fill="black"/>
+                        </svg>
+                        <div class="gridContacto">
+                            <h5>Chat en vivo</h5>
+                            <button>Chatea ahora</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- SECION DE INFORMACION DE COMO ALQUILAR UN AUTO -->
+
+    <section class="sectionInformacion">
+    <div class="informacion"> 
+        <div class="terminos">
+            <h1>Consejos para alquilar un coche barato en FastRent</h1>
+            <ul>
+                <li>Si tienes menos de 25 años y uno de tus acompañantes tiene más de
+                     25 años, es mejor alquilar el coche a su nombre. De esa manera podrás evitar cargos por menores de edad.</li>
+                <li>Reserve un coche de alquiler en el
+                    aeropuerto de Fort Lauderdale algún tiempo antes de su viaje para aprovechar el precio más barato posible.</li>
+                <li>Lleve consigo todos los documentos necesarios mientras conduce el coche de alquiler.</li>
+                <li>Para mayor comodidad, puede optar por un coche de alquiler con una política de combustible lleno a lleno</li>
+            </ul>
+        </div>
+        <div class="imagenTerminos">
+            <img src="./Imagenes/location.png" alt="">
+        </div>
+    </div> 
+    </section>
+    <!-- SECCION DE DEVOLUCIONES  -->
+    <aside class="asideDevol">
+        <div class="devoluciones">
+            <div class="imgDevol">
+                <img src="./Imagenes/devolucion.png" alt="">
+            </div>
+            <div class="infoAlquiler">
+                <h1>Devolución de vehículos de alquiler en el aeropuerto de Fort Lauderdale</h1>
+                <p>Los autos de alquiler deberán ser devueltos al Centro de Alquiler de Autos, 
+                    luego de lo cual el arrendatario podrá tomar el servicio de traslado a las 
+                    respectivas Terminales para sus vuelos. Se puede acceder a la Terminal 1 a través 
+                    del puente peatonal en el nivel 2.</p>
+            </div>
+        </div>
+        <div class="direcciones">
+            <div>
+                <h1>Dirección de devolución de vehículos de alquiler en el aeropuerto de Fort Lauderdale, Florida</h1>
+                <p>Centro de alquiler de automóviles600
+                    Terminal DriveFort Lauderdale, FL 33315</p>
+            </div>
+            <div>
+                <h1>Devoluciones fuera de horario</h1>
+                <p>La mayoría de los proveedores permiten devoluciones de vehículos de alquiler 
+                    fuera del horario de oficina en el aeropuerto de Fort Lauderdale. Simplemente 
+                    deje las llaves en el buzón de entrega después de estacionar su vehículo de
+                     alquiler en el área de devolución.</p>
+            </div>
+        </div>
+    </aside>
+    <br><br><br>
+    <footer class="bg-dark text-white pt-5 pb-4">
+ 
+        <div class="container">
+       
+          <div class="row text-center text-md-left">
+       
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
+      <p>
+      <i class="fas fa-home mr-3 text-white"></i> Av. Principal 123
+      </p>
+      <p>
+      <i class="fas fa-envelope mr-3 text-white"></i> info@rentautos.com
+      </p>
+      <p>
+      <i class="fas fa-phone mr-3 text-white"></i> +51 987 654 321
+      </p>
+      </div>
+       
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Enlaces Útiles</h5>
+      <p>
+      <a href="#" class="text-white">Reservas</a>
+      </p>
+      <p>
+      <a href="#" class="text-white">Automóviles</a>
+      </p>
+      <p>
+      <a href="#" class="text-white">Términos y Condiciones</a>
+      </p>
+      <p>
+      <a href="#" class="text-white">Acerca de Nosotros</a>
+      </p>
+      </div>
+       
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
+      <a href="#" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+      </a>
+      <a href="#" target="_blank">  
+      <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+      </a>
+      <a href="#" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
+      </a>
+      <a href="#" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/youtube-play.png"/>
+      </a>
+      </div>
+       
+          </div>
+       
+          <hr class="mb-4">
+       
+          <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+      <p>Copyright &copy;2023 Todos los derechos reservados por:
+      <a href="#" style="text-decoration: none;">
+      <strong class="text-warning">RentaAutos</strong>
+      </a>
+      </p>
+      </div>
+       
+            <div class="col-md-5 col-lg-4">
+      <div class="text-center text-md-right">
+      <ul class="list-unstyled list-inline">
+      <li class="list-inline-item">
+      <img src="https://img.icons8.com/color/48/000000/visa.png"/>
+      </li>
+      <li class="list-inline-item">
+      <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/>
+      </li>
+      <li class="list-inline-item">
+      <img src="https://img.icons8.com/color/48/000000/paypal.png"/>
+      </li>
+      </ul>
+      </div>
+      </div>
+      </div>
+       
+        </div>
+       
+      </footer>
+</body>
+</html>

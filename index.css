@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    margin-top: 55px;
+}
+.menu ul li{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 44px;
+}
+.menu ul li:hover {
+    transform: translateX(10px) rotate(20deg);
+}
+.menu ul li a:hover {
+    color: #f60;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo{
+    width: 153px;
+    height: 127px;
+    margin: 0px 44px 0px 51px;
+}
+.logo img{
+    width: 100%;
+}
+.usuario{
+    margin: 28px 0px 25px 110px;
+}
+/* ESTILOS DEL ASIDE */
+.usersAside{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.banner{
+    background-color:#848185;
+}
+.banner .intro h1{
+    margin-top: 44px;
+    margin: 44px auto auto 41px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 43px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+.banner .intro p{
+    width: 70%;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin: 16px auto 23px 77px;
+}
+.informacion input{
+    border: none;
+    font-size: 15px;
+    width: 244px;
+    height: 35px;
+    background-color: #D9D9D9;
+}
+.informacion{
+    margin: 53px auto auto 72px;
+}
+.informacion button{
+    display: inline-flex;
+    height: 31px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #D9D9D9;
+    border: none;
+    cursor: pointer;
+}
+.aventura{
+    width: 715px;
+    height: 488px;
+}
+.aventura img{
+    width: 100%;
+}
+
+#separador{
+    width: 1298px;
+    height: 5px;
+    margin: 58px auto 28px auto;
+    background-color: #000;
+}
+/* ESTILOS DEL SECTION */
+.test{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+.comentarios{
+    width: 403px;
+    height: 233px;
+    border-radius: 30px;
+    background: #B6685C;
+}
+.testUsuarios .comentarios h3{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 127px;
+    margin-top: 31px;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.testUsuarios{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+}
+.testUsuarios .comentarios p{
+    width: 331px;
+    height: 134px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+    margin: 12px auto auto 46px;
+}
+
+/* ESTILOS DEL ASIDECOMENT */
+
+.asideComent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 70px;
+}
+.asideComent .coment h2{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 47px;
+    padding-bottom: 20px;
+}
+.coment textarea{
+    padding: 8px;
+    margin-left: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+}
+.coment .butons button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #9CD5FF;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    margin-right: 130px;
+}
+.butons .eliminar:hover{
+    background-color: red;
+}
+.butons{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.comunCont{
+    width: 672px;
+    
+    border: 1px solid #000;
+    background: #D9D9D9;
+}
+.comunCont h1{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 28px auto 5px 68px;
+    padding-bottom: 10px;
+}
+.comunCont .lg{
+    margin-left: 160px;
+    display: flex;
+}
+.lg svg{
+    margin: 13px 50px 20px 0px;
+}
+.comunCont .lg .gridContacto{
+    display: grid;
+    grid-template-rows: 25px 25px;
+}
+.gridContacto{
+    margin-top: 15px;
+}
+.gridContacto h5{
+    color: #000000;
+    font-family: 'Inter'Arial, Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.gridContacto .edit{
+    color: #0045AD;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.gridContacto button{
+    width: 100px;
+    height: 30px;
+    transform: rotate(0.648deg);
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #9CD5FF;
+    cursor: pointer;
+    border: none;
+    margin-left: 120px;
+}
+.sectionInformacion{
+    background-color:#D9D9D9;
+}
+.informacion{
+    display: grid;
+    grid-template-columns: 70% 30%
+}
+.terminos{
+    width: 881px;
+    height: 346px;  
+    flex-shrink: 0;
+    margin: 40px 0px 0px 0px;
+    padding-left: 100px;
+}
+.terminos h1{
+    color: #000;
+    font-family: 'Barlow',Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.terminos ul li{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.imagenTerminos{
+    margin-top: 110px;
+    margin-left: 10px;
+}
+.devoluciones{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 35px;
+}
+.infoAlquiler{
+    width: 881px;
+    height: 198px;
+    flex-shrink: 2;
+}
+.asideDevol h1{
+    color: #000;
+    font-family: 'Barlow',Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.asideDevol p{
+    color: #000;
+    font-family: 'Barlow';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.asideDevol{
+    margin-left: 190px;
+}
+.direcciones{
+    margin-top: 50px;
+    padding-right: 150px;
+}

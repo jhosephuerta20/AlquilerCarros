@@ -1,0 +1,55 @@
+.carroo{
+    width: 650px;
+    height: 450px;
+    border: 5px solid black !important;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.margen{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.btnn{
+    margin-left: 40%;
+    padding: 15px 50px 15px 50px;
+    margin-top:3%;
+    background: transparent !important;
+}
+.btnn:hover{
+    background-color: rgb(46, 45, 45) !important;
+    color: white !important;    
+}
+.custom-checkbox {
+    display: none;
+  }
+
+  .custom-checkbox-label {
+    display: inline-block;
+    width: 220px;
+    height: 120px;
+    background-size: cover;
+    cursor: pointer;
+    border: 10px solid transparent;
+  }
+
+  .custom-checkbox:checked + .custom-checkbox-label {
+    border-color: black;
+  }
+
+  .checkbox-img1 {
+    background-image: url('https://datalockperu.com/wp-content/uploads/2023/07/Se-Puede-saber-el-numero-de-Yape-solo-con-el-QR.jpg');
+  }
+
+  .checkbox-img2 {
+    background-image: url('https://www.mercadonegro.pe/wp-content/uploads/2020/09/logobcp.jpg');
+  }
+
+  .checkbox-img3 {
+  background-image: url('https://contadora.pe/wp-content/uploads/2020/10/plin-1080x498.jpg');
+  }
+.margenn{
+  margin-left: 30%;
+  height: 40px;
+  background-color: rgb(153, 64, 64);
+  color: white;
+}
